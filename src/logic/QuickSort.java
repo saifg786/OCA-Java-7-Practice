@@ -11,7 +11,7 @@ public class QuickSort {
 
     public static void main( String[] args ) {
         int array[] = { 23, 44, 1, 2009, 2, 88, 123, 7, 999, 1040, 88 };
-        QuickSort.quickSort( array, 0, array.length - 1 );
+        quickSort( array, 0, array.length - 1 );
     }
 
     public static void quickSort( int[] array, int position, int arrayLength ) {
